@@ -1,4 +1,6 @@
-# babel-plugin-lodash
+# @ramirezcgn/babel-plugin-lodash
+
+Fork of babel-plugin-lodash, fix `isModuleDeclaration` has been deprecated, please migrate to `isImportOrExportDeclaration`.
 
 A simple transform to cherry-pick Lodash modules so you don’t have to.
 
@@ -9,7 +11,7 @@ for even smaller cherry-picked builds!
 
 ```shell
 $ npm i --save lodash
-$ npm i --save-dev babel-plugin-lodash @babel/cli @babel/preset-env
+$ npm i --save-dev @ramirezcgn/babel-plugin-lodash @babel/cli @babel/preset-env
 ```
 
 ## Example
